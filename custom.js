@@ -1,21 +1,3 @@
-var map;
-
-// Initialize and add the map
-
-function initMap() {
-    // The location of Buenos Aires
-    var myLatlng = {
-        lat: -34.6037389,
-        lng: -58.3837591
-    };
-    // The map, centered at Buenos Aires
-    map = new google.maps.Map(
-        document.getElementById('map'), {
-            zoom: 16,
-            center: myLatlng
-        });
-    // The marker, positioned at Buenos Aires
-}
 
 function geolocate() {
     if (navigator.geolocation) {
