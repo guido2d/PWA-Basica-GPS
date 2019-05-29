@@ -52,6 +52,10 @@ function log(texto) {
     $('.consola').append(`<span>${texto}</span>`);
 }
 
+function clearConsole() {
+    $('.consola').text('');
+}
+
 function addMark(location) {
     this.log('Entre al addMark().');
 
