@@ -207,7 +207,7 @@ function addMark(location) {
     map.setCenter(location);
 
     var image = new google.maps.MarkerImage(
-        'http://plebeosaur.us/etc/map/bluedot_retina.png',
+        'https://gpx-tracking-platform.herokuapp.com/img/marker.svg',
         null, // size
         null, // origin
         new google.maps.Point(8, 8), // anchor (move to center of marker)
