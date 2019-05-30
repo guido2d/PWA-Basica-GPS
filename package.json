@@ -1,0 +1,22 @@
+{
+  "name": "gpx-pwa",
+  "version": "1.0.0",
+  "description": "",
+  "main": "custom.js",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guido2d/PWA-Basica-GPS.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/guido2d/PWA-Basica-GPS/issues"
+  },
+  "homepage": "https://github.com/guido2d/PWA-Basica-GPS#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
