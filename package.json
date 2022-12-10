@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/guido2d/PWA-Basica-GPS#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.3"
   }
 }
